@@ -1,96 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Journey in Computer Science: A Passion Unveiled</title>
-    <style>
-        body {
-            background-image: url('file:///C:/Users/HP/Downloads/HD-wallpaper-laptop-keyboard-backlight-dark.jpg'); /* Use 'file://' followed by the absolute file path */
-            background-size: cover; /* Cover the entire background */
-            background-repeat: no-repeat; /* Do not repeat the background image */
-            background-attachment: fixed; /* Fixed background */
-        }
-    
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            
-            color: #000; /* Changed color to black */
-        }
+<title>Pranavi's portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>Welcome to my<br>PORTFOLIO</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  
+  <a href="passion.html" class="w3-bar-item w3-button">MY JOURNEY</a>
+   <a href="skills.html" class="w3-bar-item w3-button">SKILLS</a>
 
-        h1{
-            text-align: center;
-            color: #ffffff; /* Changed color to black */
-        }
-      h2 {
-            text-align: center;
-            color: #000; /* Changed color to black */
-        }
 
-        p {
-            text-align: justify;
-            line-height: 1.6;
-            margin-bottom: 20px;
-            color: #000; /* Changed color to black */
-        }
+</nav>
 
-        .section {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
 
-<div class="container">
-    <h1>My Journey in Computer Science: A Passion Unveiled</h1>
 
-    <div class="section">
-        <h2>Introduction:</h2>
-        <p>
-            Ever since I first tapped away on a computer keyboard, I've been hooked. My journey into computer science started early, driven by a simple curiosity that grew into a fiery passion. This cover page is a snapshot of my adventure so far and a peek into where I'm headed.
-        </p>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Early Spark:</h2>
-        <p>
-            As a kid, computers were like magic to me. Playing with code felt like solving puzzles, and every discovery was a triumph. From basic games to simple programs, I was fascinated by how technology worked and what it could do.
-        </p>
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>ABOUT ME</b></h4>
+    <img src="img.jpg" alt="Me" class="w3-image w3-padding-32" width="400" height="450">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>DEVI PRANAVI</h4>
+      <p>As a computer science graduate, my passion for this field is deeply rooted in its boundless potential to shape the future.
+         From the intricate algorithms that power our everyday applications to the elegant logic behind complex systems, computer science is not merely a discipline 
+          but a gateway to innovation and problem-solving.
+      </p>
+      <p>mail: allareddypranavi@gmail.com</p>
+      <p>tel: 9908875522</p>
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+      <p class="w3-wide">Web Programming</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+      </div>
+      <p class="w3-wide">Data Structures and Algorithms</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide">Java C++ JS</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+      </div>
+      
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Fueling the Flame:</h2>
-        <p>
-            As I grew older, my love for computer science only intensified. I dove into programming, thrilled by the challenge of creating something from nothing. The idea of artificial intelligence intrigued me – imagining machines learning and evolving like humans.
-        </p>
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Contact Me</b></h4>
+      <p>Get in touch with me.</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+      </form>
     </div>
+  </div>
 
-    <div class="section">
-        <h2>Future Dreams:</h2>
-        <p>
-            Looking ahead, my dreams in computer science are big. I see myself at the forefront of innovation, using technology to solve real-world problems. Whether it's developing new software, exploring AI, or making tech more sustainable, I'm determined to make a difference.
-        </p>
-    </div>
+ 
 
-    <div class="section">
-        <h2>Conclusion:</h2>
-        <p>
-            In closing, this cover page tells the story of my journey into computer science – a journey fueled by curiosity, passion, and a drive to make a mark on the world. As I continue forward, I'm excited to see where this adventure takes me and the impact I can make along the way.
-        </p>
-    </div>
-</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+
+
+</script>
+
 
 </body>
 </html>
